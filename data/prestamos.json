@@ -1,0 +1,16 @@
+[
+  {
+    "idLibro": 1,
+    "nombreUsuario": "Pedro",
+    "id": 1,
+    "fechaDePrestamo": "9/5/2026",
+    "fechaDevolucion": "8/7/2026"
+  },
+  {
+    "idLibro": 4,
+    "nombreUsuario": "Pedro b",
+    "id": 2,
+    "fechaDePrestamo": "9/5/2026",
+    "fechaDevolucion": "8/7/2026"
+  }
+]

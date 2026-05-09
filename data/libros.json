@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titulo": "el señor de los anillos",
+    "autor": "Tolkien",
+    "año": "1956",
+    "disponible": false
+  },
+  {
+    "id": 2,
+    "titulo": "Tecnica y civilizacion",
+    "autor": "Mumford",
+    "año": "1923",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "titulo": "Harry Potter",
+    "autor": "Camila",
+    "año": "2021",
+    "disponible": false
+  },
+  {
+    "id": 4,
+    "titulo": "Carmen",
+    "autor": "Bizet",
+    "año": "1835",
+    "disponible": false
+  },
+  {
+    "titulo": "el señor de los anillos 3",
+    "autor": "Tolkien",
+    "año": 1956,
+    "disponible": true,
+    "id": 5
+  },
+  {
+    "titulo": "Mama luketi",
+    "autor": "fideos",
+    "año": 2021,
+    "disponible": true,
+    "id": 6
+  }
+]

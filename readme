@@ -1,0 +1,29 @@
+Ejercicio 3 — Sistema de biblioteca
+Una biblioteca necesita gestionar libros y préstamos. Dos recursos relacionados.
+
+Libros — cada libro tiene: id, título, autor, año, disponible (true/false)
+Préstamos — cada préstamo tiene: id, idLibro, nombreUsuario, fechaPrestamo, fechaDevolucion
+
+
+Lo que tiene que poder hacer:
+
+Libros:
+
+Listar todos los libros
+Agregar un libro nuevo
+Ver solo los libros disponibles
+
+Préstamos:
+
+Registrar un préstamo — cambia disponible a false en el libro
+Devolver un libro — cambia disponible a true en el libro
+Ver préstamos activos (sin fecha de devolución)
+
+Reglas:
+
+No se puede prestar un libro que ya está prestado
+Al devolver, verificar que el préstamo existe
+Estructura completa con router, middlewares, errorHandler, dotenv, Git
+
+Diferencia con el ejercicio anterior: dos archivos JSON, dos services, dos routers, y las operaciones de préstamo modifican datos de libros — recursos relacionados.
+Sin mirar ejercicios anteriores salvo para consulta puntual. Arrancá por la estructura y el setup.
